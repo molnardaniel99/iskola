@@ -1,0 +1,62 @@
+"""F0001a
+print('...Hogyha én ezt tudtam volna)
+print('Köpönyeget hoztam vóna'!)
+Hibát ír ki mivel az elsõ mondatnál nincs bezárva egy ' jellel a mondat
+    A másodiknál a felkiáltó jel az aposztróf után van """
+
+###F0001b
+print('Rásír a sok kis malac is!')
+print('"Én is, én is, én is, én is!"')
+"""Kiadja a " jelet mivel ' zártuk körbe a mondatot!""" 
+
+###F0002a
+""" Az egér nevet nem fogja kiírni, mivel a kutya nevû változót nem hívtuk meg"""
+cica = 'kutya'
+kutya = 'egér'
+egér = 'cica'
+print(cica)
+print('kutya')
+print(egér)
+print('cica')
+
+###F0002b
+"""Tyúk lesz kiírva, mivel a kutya felveszi a cica nevû változó értékét"""
+cica = 'kutya'
+print(cica)
+kutya = 'egér'
+egér = 'cica'
+print('kutya')
+cica = 'tyúk'
+print(egér)
+kutya = cica
+print('kutya')
+print(kutya)
+
+###F0002c
+"""Összesen 11 sort és ebben 5 sor szöveg"""
+print('Elsõ sor\n')
+print('\nNos?')
+print('Azaz?\n')
+print('\nAkkor most mennyi?\n\n')
+print('Utolsó sor')
+
+###F0002d
+print("    /\n   /\n  /\n /\n/\n")
+
+###F0002e
+print("\\\n \\\n  \\\n   \\\n    \\\n")
+
+###F0002f
+print("\\    /\n \\  /\n  \\/\n")
+
+###F0003a
+vnev=input("Add meg a vezetéknevedet:")
+knev=input("Add meg a keresztnevedet:")
+print("A te neved ",vnev,knev)
+
+###F0003b
+szev=int(input("Add meg a születési évedet:"))
+csjegy=input("Add meg a csillagjegyedet:")
+vnev=input("Add meg a vezetéknevedet:")
+knev=input("Add meg a keresztnevedet:")
+print("A te neved ",vnev,knev,"aki",szev,"-ben született, és a csillagjegyed ",csjegy)  
